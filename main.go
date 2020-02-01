@@ -5,6 +5,6 @@ import "fmt"
 func main() {
 	a := 2
 	b := &a
-	a = 10
-	fmt.Println(a, *b)
+	*b = 202020
+	fmt.Println(a)
 }
